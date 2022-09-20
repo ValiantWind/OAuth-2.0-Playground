@@ -30,6 +30,36 @@ h1{
     font-weight: 500;
     line-height: 140%;
 }
+h2{
+    color: white;
+    font-family: 'Gotham Screen Smart', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+h3{
+    color: white;
+    font-family: 'Gotham Screen Smart', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+h4{
+    color: white;
+    font-family: 'Gotham Screen Smart', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+		margin-bottom: 15px;
+}
+h5{
+    color: white;
+    font-family: 'Gotham Screen Smart', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+		margin-bottom: 15px;
+}
 input{
     width: 300px;
     height: 40px;
@@ -119,5 +149,5 @@ label{
 }
 
 img{
-  margin: 15px;
+  margin: 10px;
 }
