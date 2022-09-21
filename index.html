@@ -11,10 +11,15 @@
       <h1>OAuth 2.0 Playground</h1>
 			<h4> Open Source at: https://github.com/ValiantWind/OAuth-2.0-Playground</h4>
 			
-	<button onclick="onDiscordButtonClick()" id="discord" class="discord">Login with Discord</button>
-			<button id="twitter" class="twitter">Login with Twitter (Unfinished) </button>
+	<button onclick="LoginWithDiscord()" id="discord" class="discord">Login with Discord</button>
+			<button id="twitter" class="twitter" onclick="LoginWithTwitter()">Login with Twitter (Unfinished) </button>
+			<button id="replit" class="replit" onclick="LoginWithReplit()"> Login with Replit </button>
+			<button id="twitch" class="twitch" onclick="LoginWithTwitch()"> Login with Twitch </button>
+			<button id="reddit" class="reddit" onclick="LoginWithReddit()"> Login with Reddit </button>
+			<button id="microsoft" class="microsoft" onclick="LoginWithMicrosoft"><img src="img/microsoft.png"></button>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+		<script src="https://replit.com/public/js/repl-auth-v2.js"></script>
 <script src="script.js"></script>
   </body>
 </html>
