@@ -6,9 +6,9 @@
 @font-face {
     font-family: 'Gotham Screen Smart';
     src: local('Gotham Screen Smart Book'), local('Gotham-Screen-Smart-Book'),
-        url('https://valiantwind.me/OAuth-2.0-Playground/fonts/GothamSSm-Book.woff2') format('woff2'),
-        url('https://valiantwind.me/QR-Code-Generator/fonts/GothamSSm-Book.woff') format('woff'),
-        url('https://valiantwind.me/QR-Code-Generator/fonts/GothamSSm-Book.ttf') format('truetype');
+        url('https://valiantwind.github.io/OAuth-2.0-Playground/fonts/GothamSSm-Book.woff2') format('woff2'),
+        url('https://valiantwind.github.io/QR-Code-Generator/fonts/GothamSSm-Book.woff') format('woff'),
+        url('https://valiantwind.github.io/QR-Code-Generator/fonts/GothamSSm-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -216,4 +216,6 @@ label{
 img {
 	margin: 5px;
 	border: none;
+	outline: none;
+	background: transparent;
 }
