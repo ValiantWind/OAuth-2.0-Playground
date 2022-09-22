@@ -4,7 +4,7 @@ function LoginWithDiscord(){
 }
 
 function LoginWithTwitch(){
-	window.open("https://api.twitch.tv/kraken/oauth2/authorize?response_type=code&client_id=%5BYOUR_PUBLIC_CLIENT_ID%5D&redirect_uri=%5BRETURN_URL%5D&scope=%5BSCOPES_REQUIRES%5D", "_blank")
+	window.open("https://api.twitch.tv/kraken/oauth2/authorize?response_type=code&client_id=%5BYOUR_PUBLIC_CLIENT_ID%5D&redirect_uri=%5Bhttps://OAuth-Redirect.valiantwind.repl.co%5D&scope=%5BSCOPES_REQUIRES%5D", "_blank")
 }
 
 function LoginWithReddit(){

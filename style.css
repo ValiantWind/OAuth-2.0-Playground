@@ -1,5 +1,4 @@
 *{
-    margin: 0;
     padding: 0;
 		background: rgba(18, 18, 18, 1);
 }
@@ -7,11 +6,20 @@
     font-family: 'Gotham Screen Smart';
     src: local('Gotham Screen Smart Book'), local('Gotham-Screen-Smart-Book'),
         url('https://ValiantWind.github.io/OAuth-2.0-Playground/fonts/GothamSSm-Book.woff2') format('woff2'),
-        url('https://ValiantWind.github.io/QR-Code-Generator/fonts/GothamSSm-Book.woff') format('woff'),
-        url('https://ValiantWind.github.io/QR-Code-Generator/fonts/GothamSSm-Book.ttf') format('truetype');
+        url('https://ValiantWind.github.io/OAuth-2.0-Playground/fonts/GothamSSm-Book.woff') format('woff'),
+        url('https://ValiantWind.github.io/OAuth-2.0-Playground/fonts/GothamSSm-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
+
+@font-face {
+      font-family: 'IBM Plex Sans';
+      font-style: normal;
+      font-weight: 400;
+      src: local('IBM Plex Sans Regular'), local('IBMPlexSans-Regular'),
+          url('/public/fonts/ibm-plex-sans-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('/public/fonts/ibm-plex-sans-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
 .main{
     width: 100%;
@@ -21,10 +29,11 @@
     align-items: center;
     flex-direction: column;
     background: rgba(18, 18, 18, 1);
+		
 }
 h1{
     color: white;
-    margin: 15px;
+    margin: 10px;
     font-family: 'Gotham Screen Smart', sans-serif;
     font-size: 24px;
     font-style: normal;
@@ -66,7 +75,7 @@ input{
     height: 40px;
     background: transparent;
     border: none;
-    margin: 15px;
+    margin: 10px;
     outline: none;
     font-size: 1.2rem;
     color: white;
@@ -75,7 +84,7 @@ input{
 }
 button.discord {
 	border-radius: 10px;
-	margin: 5px;
+	margin: 1px;
   border: none;
   cursor: pointer;
   color: #171717;
@@ -95,7 +104,7 @@ button.discord {
 
 button.twitter {
 	border-radius: 10px;
-	margin: 5px;
+	margin: 1px;
   border: none;
   cursor: pointer;
   color: #171717;
@@ -115,28 +124,44 @@ button.twitter {
 
 button.replit {
 	border-radius: 10px;
-	margin: 5px;
+	margin: 1px;
   border: none;
   cursor: pointer;
-  color: #171717;
+  color: #F5F9FC;
   background-color: #0053a6;
   padding: 6px 16px;
   font-size: 16px;
   box-sizing: border-box;
   font-style: normal;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  font-family: 'Gotham Screen Smart', Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-family: 'IBM Plex Sans';
   font-weight: 500;
   line-height: 24px;
-  text-transform: uppercase;
   position: relative;
   overflow: hidden;
+	align-content: center;
+	align-items: center;
+	text-align: center;
 }
+/* button.replit{
+	border-radius: 10px;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  margin-left: 8px;
+  color: #F5F9FC;
+	border: none;
+	background-color: #0053a6;
+	align-content: center;
+} */
 
 button.reddit {
 	border-radius: 10px;
-	margin: 5px;
-  border: none;
+	margin: 1px;
+	border: none;
   cursor: pointer;
   color: #171717;
   background-color: #F23C17;
@@ -155,7 +180,7 @@ button.reddit {
 
 button.twitch {
 	border-radius: 10px;
-	margin: 5px;
+	margin: 1px;
   border: none;
   cursor: pointer;
   color: #171717;
@@ -173,6 +198,12 @@ button.twitch {
   overflow: hidden;
 }
 
+button.microsoft {
+	border-radius: 10px;
+	margin: 5px;
+  border: none;
+
+}
 
 
 span.ripple {
